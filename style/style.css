@@ -1,0 +1,37 @@
+table{
+     border-collapse: collapse;
+     border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+.maxPrice{
+    background-color: green;
+}
+.minPrice{
+    background-color: red;
+}
+#error_message{
+    color: red;
+}
+#success_message{
+    color: green;
+}
+
+input[type=button]{
+    max-width: 80px;
+    min-height: 30px;
+}
+input{
+    min-height: 20px;
+    width: 80px;
+    margin: 5px;
+    appearance: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+select{
+    min-height: 25px;
+}
